@@ -12,6 +12,7 @@ int main()
       delay_ms(500);
       IOSET0=0xff;
       delay_ms(500);
+    }
 }
 void delay_sec(unsigned int sec)
 {
