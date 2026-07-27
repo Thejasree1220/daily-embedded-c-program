@@ -3,7 +3,7 @@ void delay_ms(unsigned int ms);
 void delay_sec(unsigned int sec);
 int main()
 {
-	int i,temp;
+int i,temp;
   IODIR0=0xff;
   IOSET0=0xff;
   delay_ms(100);
